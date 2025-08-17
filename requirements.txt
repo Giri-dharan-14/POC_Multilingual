@@ -1,0 +1,19 @@
+livekit-agents>=1.2.0
+livekit-plugins-openai>=1.2.0
+livekit-plugins-silero>=1.1.0
+livekit>=1.0.0
+google-generativeai>=0.8.0
+python-dotenv>=1.0.0
+psutil>=5.9.0
+uvicorn>=0.24.0
+pygame
+pyaudio
+openai
+
+# Optional plugins (install as needed)
+# livekit-plugins-deepgram>=1.1.0
+# livekit-plugins-cartesia>=1.1.0
+# livekit-plugins-elevenlabs>=1.1.0
+
+# For turn detection and noise cancellation
+livekit-agents[turn-detector,silero]>=1.2.0
